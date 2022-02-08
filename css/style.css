@@ -1,0 +1,54 @@
+body {
+  background-color: #000000;
+  user-select: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #8a5656;
+  border-radius: 1px;
+  max-width: 500px;
+  font-family: "impact";
+  padding: 20px;
+}
+.item {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: grab;
+}
+.input {
+  min-height: 60px;
+  height: auto;
+  padding: 5px 20px;
+  grid-column: 1/-1;
+  font-size: 40px;
+  justify-content: flex-end;
+}
+.upper {
+  font-size: 20px;
+  margin-left: 3px;
+  margin-top: -20px;
+}
+
+.clean,
+.back,
+.percent {
+  color: #ffffff;
+}
+.divide,
+.mul,
+.sub,
+.add {
+  color: #000000;
+}
+
+.equal {
+  background-color: #924a07;
+  border-radius: 5%;
+  width: 40px;
+  height: 40px;
+}
